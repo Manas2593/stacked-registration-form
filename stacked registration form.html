@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stacked registration form.css">
+  </head>
+  <body class="webpage">
+    <div class="page">
+      <div class="column1">
+        <div class="registration_box"><b><u>SIGN Up</u></b></div>
+        <div clas="form">
+          <form>
+      <div class="name-label"><label for="name"><b>*Name</b></label></div>
+        <input type="text" id="name" placeholder="Enter you name" required oninvalid="this.setCustomValidity('Enter your name')" oninput="setCustomValidity('')"> <br>
+            <div class="email-label"><label for="email"><b>*Email</b></label></div>
+      <input type="email" id="email" class="email_input" placeholder="exampleabc@gmail.com" required oninvalid="this.setCustomValidity('Enter your email id')" oninput="setCustomValidity('')"><br>
+            <div class="number-label"><label for="number"><b>Age</b></label></div>
+      <input type="number" id="number" placeholder="Age" class="age_input" oninvalid="this.setCustomValidity('Enter correct Age')" oninput="setCustomValidity('')" min="18" max="26">
+      <fieldset class="box">
+        <legend><div class="q1"><b>Would you recommend others to participate in KGP Code Fest?</b></div></legend>
+      <div class="radio1">
+      <label for="Obviously">Obviously</label>
+      <input type="radio" id="Obviously" name="q1" value="Obviously"></div>
+      <br>
+      <div class="radio2"><label for="Maybe">Maybe</label>
+        <input type="radio" id="Maybe" name="q1" value="May Be"></div>
+        <div class="radio3">
+          <label for="No">No</label>
+          <input type="radio" id="No" name="q1" value="No"></div>
+      </fieldset>
+      <div class="scroll1"><label for="q2"><b>What do you ike most about KGP Code Fest?</b></label></div>
+      <div><select id="dropdown" name="opt" id="dropdown">
+        <option value="" disabled selected>Select</option>
+        <option value="Competitive Atmosphere">Competitive Atmosphere</option>
+        <option value="Teaching Staff">Teaching Staff</option>
+        <option value="Computer Lab Facilities">Computer Lab Facilities</option></select>
+      </div>
+      <div class="q3"><b>Which programming languages excites you the most?</b></div>
+  <div class="opt">    <label for="css" >CSS</label>
+      <input type="checkbox" id="css" name="q3" value="CSS"></div>
+      <div class="opt"><label for="js">JS</label>
+        <input type="checkbox" id="js" name="q3" value="JS"></div>
+      <div class="opt"><label for="html">HTML</label>
+        <input type="checkbox" id="html" name="q3" value="HTML"></div>
+      <div class="opt"><label for="python" >PYTHON</label>
+        <input type="checkbox" id="python" name="q3" value="PYTHON"></div>
+      <div class="opt"><label for="java">JAVA</label>
+        <input type="checkbox" id="java" name="q3" value="JAVA"></div>
+      <div class="opt"><label for="c">C</label>
+        <input type="checkbox" id="c" name="q3" value="C"></div>
+      <div class="opt"><label for="c++">C++</label>
+        <input type="checkbox" id="c++" name="q3" value="C++" class="last"></div>
+            <div class="suggestion_area">
+      <label for="comments" class="comments"><b>Any Suggestion !</b></label>
+      <textarea id="comments" rows="10" cols="80" placeholder="enter your comments here"></textarea>
+            </div>
+      <br><div class="buttons">
+      <button type="submit" class="submit_button">Submit</button>
+      <br>
+      <button type="reset" class="reset_button">Reset</button>
+            </div>
+            </form>
+        </div>
+      </div>
+      <div class="photo_column">
+        <div class="img"><img src ="https://img.freepik.com/free-vector/gradient-coding-developers-logo_23-2148809440.jpg?size=338&ext=jpg" class="img_modifications">
+        </div>
+        <div class="member"><a href="www.member.com" target="blank" class="link_decoration">Already a member</a></div>
+      </div>
+    </div>
+  </body>
+</html>
